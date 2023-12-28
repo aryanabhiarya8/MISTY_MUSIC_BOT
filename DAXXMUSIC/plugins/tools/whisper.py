@@ -20,7 +20,7 @@ async def _whisper(_, inline_query):
                 title="💒 Whisper",
                 description=f"@{BOT_USERNAME} [ USERNAME | ID ] [ TEXT ]",
                 input_message_content=InputTextMessageContent(f"💒 Usage:\n\n@{BOT_USERNAME} [ USERNAME | ID ] [ TEXT ]"),
-                thumb_url="https://te.legra.ph/file/3eec679156a393c6a1053.jpg",
+                thumb_url="https://telegra.ph/file/29cc77eaa1db962053577.jpg",
                 reply_markup=switch_btn
             )
         ]
@@ -39,7 +39,7 @@ async def _whisper(_, inline_query):
                     title="💒 Whisper",
                     description="Invalid username or ID!",
                     input_message_content=InputTextMessageContent("Invalid username or ID!"),
-                    thumb_url="https://te.legra.ph/file/3eec679156a393c6a1053.jpg",
+                    thumb_url="https://telegra.ph/file/29cc77eaa1db962053577.jpg",
                     reply_markup=switch_btn
                 )
             ]
@@ -52,14 +52,14 @@ async def _whisper(_, inline_query):
                     title="💒 Whisper",
                     description=f"Send a Whisper to {user.first_name}!",
                     input_message_content=InputTextMessageContent(f"💒 You are sending a whisper to {user.first_name}.\n\nType your message/sentence."),
-                    thumb_url="https://te.legra.ph/file/3eec679156a393c6a1053.jpg",
+                    thumb_url="https://telegra.ph/file/29cc77eaa1db962053577.jpg",
                     reply_markup=whisper_btn
                 ),
                 InlineQueryResultArticle(
                     title="🔩 One-Time Whisper",
                     description=f"Send a one-time whisper to {user.first_name}!",
                     input_message_content=InputTextMessageContent(f"🔩 You are sending a one-time whisper to {user.first_name}.\n\nType your message/sentence."),
-                    thumb_url="https://te.legra.ph/file/3eec679156a393c6a1053.jpg",
+                    thumb_url="https://telegra.ph/file/29cc77eaa1db962053577.jpg",
                     reply_markup=one_time_whisper_btn
                 )
             ]
@@ -112,7 +112,7 @@ async def in_help():
             title="💒 Whisper",
             description=f"@YumikooBot [USERNAME | ID] [TEXT]",
             input_message_content=InputTextMessageContent(f"**📍Usage:**\n\n@YumikooBot (Target Username or ID) (Your Message).\n\n**Example:**\n@YumikooBot @username I Wanna Phuck You"),
-            thumb_url="https://te.legra.ph/file/3eec679156a393c6a1053.jpg",
+            thumb_url="https://telegra.ph/file/29cc77eaa1db962053577.jpg",
             reply_markup=switch_btn
         )
     ]
