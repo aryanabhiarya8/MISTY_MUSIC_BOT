@@ -1,7 +1,7 @@
 {
-    "name": "𝙳𝙰𝚇𝚇 𝙼𝚄𝚂𝙸𝙲",
+    "name": "Misty Music",
     "description": "A Telegram Music Player Bot, written in Python with Pyrogram and Py-Tgcalls.",
-    "logo": "https://telegra.ph/file/dbb3222d0fd3712e2a0e4.jpg",
+    "logo": "https://telegra.ph/file/29cc77eaa1db962053577.jpg",
     "keywords": [
     "python3",
     "telegram",
